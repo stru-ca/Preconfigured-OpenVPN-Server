@@ -36,3 +36,9 @@ wget https://b.stru.ca/OpenVPN/install.sh -O /tmp/vpn-install.sh
 chmod +x /tmp/vpn-install.sh
 sudo /tmp/vpn-install.sh
 ```
+
+## To Create a new VPN User
+
+```
+/etc/openvpn/vpn-create-user.sh User1
+```

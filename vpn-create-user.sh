@@ -1,3 +1,4 @@
+#!/bin/bash
 UserName=${1}
 cd /etc/openvpn/easy-rsa/
 source vars $UserName
